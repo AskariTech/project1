@@ -1,0 +1,224 @@
+.Headlogin {
+    color: brown;
+}
+
+.container_login5 {
+
+    width: 100%;
+    height: 100vh;
+
+   background-color: black;
+   text-align: center;
+   color: white;
+  
+
+   
+}
+
+.Header_login {
+    height: 10%;
+    width: 100%;
+    background-color: transparent;
+    padding: 0% 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.white {
+    color: white;
+}
+.stickyhead{
+    border-bottom: 1px solid grey;
+    height: 50px;
+    margin: 10px;
+   display: flex;
+   flex-direction: row;
+}
+.head1{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head2{
+    width: 90%;
+    text-align: center;
+    margin-left: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+.balance{
+    margin-top: 10px;
+    width: 70%;
+    text-align: left;
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 19px;
+}
+.zero{
+    margin-top: 10px;
+    width: 30%;
+    text-align: right;
+    padding-right: 20px;
+    font-weight: 600;
+    font-size: 19px;
+}
+.select{
+   
+    text-align: left;
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.select1{
+   
+    text-align: left;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+} 
+.inputbtn{
+    width: 90%;
+    background-color: 
+    #272731;
+    height: 70px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gridsocial{
+    display: flex;
+    flex-direction: row;
+}
+.social{
+    width: 50%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+    flex-direction: column;
+}
+.socialimg{
+    height: 120px;
+    width: 120px;
+}
+
+
+
+/* App.css */
+
+/* App.css */
+
+.App2 {
+    background-color: black;
+    color: white;
+
+  }
+  
+  .tab-container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .tab-scrollable {
+    overflow-x: auto;
+  }
+  
+  .tab {
+    display: flex;
+    /* Add the following style to limit button width */
+    max-width: 100%;
+  }
+  
+  .tab-btn {
+    padding: 10px 10px;
+    border: none;
+   
+    background-color: black;
+    cursor: pointer;
+    font-size: 16px;
+    /* Add the following style to prevent text wrapping */
+    white-space: nowrap;
+    /* Add the following style to prevent button from growing too wide */
+    flex: 1;
+    color: white;
+    font-weight: 500;
+  }
+  .tabcol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+  }
+  .techhead{
+    font-size: 36px;
+    font-weight: 700;
+    color: #3D4DAE;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 63px;
+  }
+  .tab-btn.active {
+    background-color:black;
+    border-bottom: 3px solid 
+    #fb3a47 ;
+    color: white;
+ 
+  }
+  .phead{
+    font-size: 16px;
+    font-weight: 400;
+    color: #52525B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 34px;
+  }
+  .tab-content .tab-pane {
+    display: none;
+  }
+  
+  .tab-content .tab-pane.active {
+    display: block;
+  }
+  
+  /* Hide the vertical scrollbar */
+  .tab-scrollable::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  
+  .tab-scrollable::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+  .tab-scrollable::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  /* Horizontal scrollbar */
+  .tab-scrollable {
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Firefox fallback */
+  }
+  .box1{
+    width: 100%;
+    height: 50px;
+    background-color: #272731;
+    margin-top: 20px;
+    border-radius: 15px;
+  }
+  

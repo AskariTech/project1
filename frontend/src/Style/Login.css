@@ -1,0 +1,248 @@
+.Headlogin {
+    color: brown;
+}
+
+.container_login {
+
+    width: 100%;
+    height: 200vh;
+    background-image: url('../assets/loginbg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.btn-close{
+    color: white !important;
+}
+.Header_login {
+    height: 10%;
+    width: 100%;
+    background-color: transparent;
+    padding: 0% 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.white {
+    color: white;
+}
+
+.Login_form {
+    height: 70%;
+    width: 100%;
+    /* background-color: aliceblue; */
+    padding: 0% 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.input_field {
+    height: 50px;
+    width: 90%;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+   
+}
+.input_field2 {
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+   
+}
+.input_field2::placeholder {
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.input_field2:focus {
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.btn_login {
+    width: 100%;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background: rgb(251, 58, 71);
+    border-radius: 50px;
+    border-width: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.fb_button {
+    width: 90%;
+    height: 75px;
+    border-radius: 0.13333rem;
+    border: none;
+    color: rgb(255, 255, 255);
+    /* background: rgb(251, 58, 71); */
+    background: url('../assets/facebook.png') no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.gg_button {
+    width: 90%;
+    height: 75px;
+    border-radius: 0.13333rem;
+    border: none;
+    color: rgb(255, 255, 255);
+    /* background: rgb(251, 58, 71); */
+    background: url('../assets/google.png') no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+.text_Content
+{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+.white_white{
+    color: white;
+    font-size: 10px;
+
+}
+.red_white{
+    color: white;
+    font-size: 12px;
+   color: rgb(251, 58, 71);
+
+}
+ 
+.p1{
+    width: 15%;
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.p2{
+    width: 85%;
+    text-align: left;
+    justify-content: left;
+    display: flex;
+    align-items: center;
+}
+.pinput{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+.pinput:focus{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.p11{
+    width: 60%;
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.p22{
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.btnred{
+    width: 80px;
+    height: 25px;
+    background-color: #fb3a47;
+    border-radius: 29px;
+    color:'white'
+   
+}
+.psw{
+    width: 90%;
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.psw1{
+    width: 10%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.psw1{
+    width: 60%;
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.psw11{
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.modalbtn{
+    width: 100%;
+    display:'flex';
+    flex-direction: row;
+}
+.m1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.m2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+.b1{
+    width: 75%;
+    margin-top: 40px;
+    height: 40px;
+    background-color: 
+    #fb3a47 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.b2{
+    margin-top: 47px;
+    width: 75%;
+    height: 40px;
+    background-color: 
+    
+#696a7f ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
